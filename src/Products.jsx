@@ -22,7 +22,7 @@ export default function Products() {
         <ul>
             {listItems}
             <li>{listItems.find(el =>
-                el.key == 1
+                el.key === '1'
             )}</li>
         </ul>
     );
